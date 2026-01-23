@@ -1,0 +1,1 @@
+- [x] Update the footer in app/page.tsx to replace the copyright notice with links for Privacy Policy and Terms of Service

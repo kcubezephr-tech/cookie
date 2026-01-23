@@ -59,7 +59,10 @@ export default function Home() {
       </section>
 
       <footer className="p-12 text-center text-gray-600 border-t border-zinc-900">
-        <p>© 2026 CookieApp. Made with ❤️ by Kennedy Kimani.</p>
+        <div className="flex justify-center gap-4">
+          <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+          <a href="/terms" className="hover:text-white transition">Terms of Service</a>
+        </div>
       </footer>
     </div>
   );
